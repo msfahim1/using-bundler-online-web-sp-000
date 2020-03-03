@@ -1,5 +1,7 @@
-gem Hashie
-gem Sinatra
-gem Octokit
-gem Pry
-gem AwesomePrint
+require_relative '../config/environment'
+
+Hashie
+Sinatra
+Octokit
+Pry
+AwesomePrint
